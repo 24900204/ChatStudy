@@ -51,7 +51,8 @@ Client-server chat applications are foundational to real-time communication over
 
 PROGRAM:
 CLIENT:
-```import socket
+```
+import socket
 s=socket.socket()
 s.bind(('localhost',8000))
 s.listen(5)
@@ -68,20 +69,25 @@ while True:
        ack=c.recv(1024).decode()
        if ack:
            print(ack)
-           i+=s```
+           i+=s
+```
 SERVER:
-```import socket
+```
+import socket
 s=socket.socket()
 s.connect(('localhost',8000))
 while True: 
  print(s.recv(1024).decode())
- s.send("acknowledgement recived from the server".encode())```
+ s.send("acknowledgement recived from the server".encode())
+```
 OUTPUT:
 CLIENT:
-image
+![Screenshot 2025-02-27 111538](https://github.com/user-attachments/assets/0cb76323-5a96-42fd-9140-1b8821f0f6fe)
+
 
 SEVER:
-image
+![Screenshot 2025-02-27 111547](https://github.com/user-attachments/assets/b89faf89-c2d6-47f4-9296-ee90ce848f3b)
+
 
 Result:
 Thus the study on Client Server Chat Applications has been performed
