@@ -127,7 +127,7 @@ while True:
 ## CLIENT:
 ![Screenshot 2025-02-27 111538](https://github.com/user-attachments/assets/bf4d3fac-fe93-49d8-b8f0-24c6a88fe2c0)
 
-## SEVER:
+## SERVER:
 ![Screenshot 2025-02-27 111547](https://github.com/user-attachments/assets/1a243519-5e04-4f5e-b782-5e4f38b1ac2c)
 
 ## Result:
